@@ -1,6 +1,6 @@
 {
   "name": "testProbe",
-  "version": "1",
+  "version": "v1",
   "description": "",
   "main": "index.js",
   "scripts": {
