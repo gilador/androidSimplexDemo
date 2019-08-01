@@ -1,0 +1,19 @@
+{
+  "name": "test probe",
+  "version": "1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/moonpaytesting.git"
+  },
+  "author": "Gor84",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "restify": "^8.4.0"
+  }
+}
