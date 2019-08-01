@@ -12,9 +12,16 @@ server.get('/mooneypay', function (req, res, cb) {
     return cb()
 })
 
-server.post('/moonpay', function (req, res, cb) {
+server.post('/tx', function (req, res, cb) {
     console.log(req.body)
-    res.send("moonpaytesting in POST")
+    res.send("tx in POST")
+
+    return cb()
+})
+
+server.post('/id', function (req, res, cb) {
+    console.log(req.body)
+    res.send("id in POST")
 
     return cb()
 })
