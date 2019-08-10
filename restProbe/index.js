@@ -13,7 +13,7 @@ server.get('/mooneypay', function (req, res, cb) {
 })
 
 server.post('/tx', function (req, res, cb) {
-    console.log(req.body)
+    console.log(JSON.stringify(req.body))
     res.send("tx in POST")
 
     return cb()
