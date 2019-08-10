@@ -20,8 +20,8 @@ server.post('/tx', function (req, res, cb) {
 })
 
 server.post('/id', function (req, res, cb) {
-    console.log(req.body)
-    res.send("id in POST")
+    console.log(JSON.stringify(req.body))
+    res.send("id1232 in POST")
 
     return cb()
 })
